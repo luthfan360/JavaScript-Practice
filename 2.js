@@ -1,5 +1,5 @@
 var x = new Date()
-var m = parseInt(x.getMonth())+2
+var m = parseInt(x.getMonth())+1
 
 console.log('This month is ' + m)
 

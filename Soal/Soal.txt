@@ -1,0 +1,90 @@
+Jawablah soal-soal berikut menggunakan function, if, loops, dan metode javascript lainnya.
+Output atau hasil yang dimaksud adalah return value function atau output pada console.
+Jawablah pertanyaan yang dirasa paling mudah terlabih dahulu.
+Anda dapat membuka Google, pdf pelajaran js, dan file js yang anda punya.
+Test ini ditujukan untuk menguji pemahaman js dan logika anda, tidak diperbolehkan mencontek teman.
+
+GOOD LUCK!
+
+1. Buatlah sebuah function yang akan menghasilkan output sebagai berikut :
+    
+    Ganjil
+    2
+    Ganjil
+    4
+    Ganjil
+    6
+    Ganjil
+    8
+    Ganjil
+    10
+
+2. Buatlah sebuah function yang menerima input atau parameter sebagai berikut :
+
+    x = panjang
+    y = lebar
+    z = tinggi
+
+    Dan output sebagai berikut :
+
+    return "volume bangunan anda " + hasil
+
+3. Buatlah sebuah object dengan properti sebagai berikut :
+
+    item : "Chicken Nugget",
+    weight : 60,
+    servingSize : [4,6,9],
+    servingWeight : function() 
+
+    dengan input atau parameter : 4, 6, atau 9
+
+    dan output sebagai berikut, sesuai input yang diberikan :
+
+    "A Box of 4 Chicken Nugget is 240g"
+    "A Box of 6 Chicken Nugget is 360g"
+    "A Box of 9 Chicken Nugget is 540g"
+
+4. Andi mendapatkan 1 buah permen setiap hari Senin - Jumat, dan mendapatkan 2 buah permen pada hari Sabtu & Minggu.
+    Berapa jumlah permen yang didapatkan andi dalam 1 bulan? Jika tanggal 1 adalah hari senin, dan dalam 1 bulan ada 31 hari.
+
+    Buatlah sebuah function untuk menjawab pertanyaan diatas.
+
+5. Buatlah sebuah function yang menerima parameter atau input 2 buah angka, dan operator kali dan bagi.
+    
+    Contoh : function(2,3,kali) --> Hasil = 6
+             function(4,2,bagi) --> Hasil = 8
+
+6. Buatlah sebuah function dengan input atau parameter sebagai berikut :
+
+    nilai = 100
+
+    Jika nilai kurang dari atau sama dengan 50 tampilkan : "Not Great, Not Terrible"
+    Jika nilai 51 hingga 75 tampilkan : "You did good"
+    Jika nilai 76 hinnga 100 tampilkan : "Great Job Comrade"
+
+7. Buatlah sebuah array berisikan 5 angka acak (hanya dari 1 - 10).
+    Tampilkan array baru berisikan angka dari array awal yang sudah dikali 2.
+
+    Contoh :
+    Input : [1,2,3,4,5]
+    Output : [2,4,6,8,10]
+
+8. BONUS QUESTION!
+    You will get a point regardless of your answer :
+    
+    var test = function() {
+    return {
+        hello: [1,[1,2,function() {
+            return function(test) {
+                return {
+                    seeya: function() {
+                        console.log('You are awesome!')
+                    }
+                }
+            }
+        }]]
+    }
+}
+
+Tuliskan cara agar anda dapat mengakses function yang mengeluarkan pesan "You are awesome!" 
+

@@ -1,0 +1,32 @@
+          * 
+        * * *
+      * * * * *
+    * * * * * * *
+  * * * * * * * * *
+
+Loop 1
+Create 10 Blanks
+Create 1 Asterisk
+Create 5 Enter
+
+Loop 2
+Create 8 Blanks
+Create 3 Asterisks
+Create 4 Enter
+
+Loop 3
+Create 6 Blanks
+Create 5 Asterisk
+Create 3 Enter
+
+Blanks = 10
+Blanks > 0
+Blanks - 2
+
+Asterisks = 1
+Asterisks < 10
+Asterisks + 2
+
+Enter = 5
+Enter > 0
+Enter - 1
